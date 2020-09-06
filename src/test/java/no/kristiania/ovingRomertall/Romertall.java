@@ -21,9 +21,22 @@ public class Romertall {
     void shouldConvert7toVII(){
         assertEquals("VII", new convertNumbers().toRoman(7));
     }
-@Test
+    @Test
     void shouldConvert14toXIV(){
         assertEquals("XIV", new convertNumbers().toRoman(14));
+    }
+
+    @Test
+    void shouldConvert37toXXXVII(){
+        assertEquals("XXXVII", new convertNumbers().toRoman(37));
+    }
+    @Test
+    void shouldConvert70toVXX(){
+        assertEquals("LXX", new convertNumbers().toRoman(70));
+    }
+    @Test
+    void shouldConvert73toVXX(){
+        assertEquals("LXXIII", new convertNumbers().toRoman(73));
     }
 
 
