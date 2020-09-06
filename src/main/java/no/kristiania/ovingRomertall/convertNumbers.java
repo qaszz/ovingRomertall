@@ -3,6 +3,10 @@ package no.kristiania.ovingRomertall;
 public class convertNumbers {
     public String toRoman(int i) {
         String roman = "";
+        while (i >= 50){
+            roman += "L";
+            i -= 50;
+        }
         while (i >= 40){
             roman += "XL";
             i -= 40;

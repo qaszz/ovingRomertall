@@ -30,6 +30,10 @@ public class Romertall {
     void shouldConvert37toXXXVII(){
         assertEquals("XXXVII", new convertNumbers().toRoman(37));
     }
+    @Test
+    void shouldConvert70toVXX(){
+        assertEquals("LXX", new convertNumbers().toRoman(70));
+    }
 
 
 }
